@@ -1,7 +1,7 @@
 import React from "react";
 import {
   DollarSign,
-  Trophy,
+  Award,
   Code,
   Clock,
   Globe,
@@ -23,7 +23,7 @@ export const AboutSection: React.FC = () => {
       desc: "₹100 Only",
     },
     {
-      icon: <Trophy className="w-5 h-5 text-yellow-400" />,
+      icon: <Award className="w-5 h-5 text-yellow-400" />,
       title: "Prize Pool",
       desc: "₹2,400 Total Cash",
     },
@@ -143,7 +143,7 @@ export const AboutSection: React.FC = () => {
                 ₹800
               </p>
               <p className="text-xs text-gray-500 mt-1 font-sans">
-                Runner Up Trophy & Cash
+                Runner Up Certificate & Cash
               </p>
             </div>
           </div>
@@ -162,7 +162,7 @@ export const AboutSection: React.FC = () => {
                 ₹1,000
               </p>
               <p className="text-xs text-yellow-200/80 mt-1 font-sans font-semibold">
-                Winner Trophy & Cash
+                Winner Certificate & Cash
               </p>
             </div>
           </div>
@@ -177,7 +177,7 @@ export const AboutSection: React.FC = () => {
                 ₹600
               </p>
               <p className="text-xs text-gray-500 mt-1 font-sans">
-                Second Runner Up & Cash
+                Second Runner Up Certificate & Cash
               </p>
             </div>
           </div>
